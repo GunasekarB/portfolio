@@ -416,6 +416,7 @@ footer {
     right: 0;
   }
   article{
+    line-height: 3rem;
     min-height: fit-content;
   }
   article,
@@ -431,6 +432,7 @@ footer {
     gap: 1rem;
   }
 }
+
 
 
 
