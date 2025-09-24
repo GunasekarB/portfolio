@@ -392,6 +392,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
+    max-height: fit-content;
   }
 
   nav {
@@ -428,3 +429,4 @@ footer {
     gap: 1rem;
   }
 }
+
