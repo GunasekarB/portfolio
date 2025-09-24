@@ -51,7 +51,7 @@ header h1:hover {
   color: var(--d-orange);
 }
 
-#guna{
+#guna {
   overflow: hidden;
   width: 20ch;
   animation: typing 3s steps(25) infinite;
@@ -101,7 +101,7 @@ article {
     rgba(255, 255, 255, 1) 0%,
     rgba(222, 239, 231, 1) 100%
   );
-  max-height: fit-content;
+  min-height: fit-content;
 }
 .my-info h1 {
   font-size: 2.5rem;
@@ -134,19 +134,19 @@ article {
   transform: scale(1.2);
   color: var(--dgreen);
 }
-#linkedin:hover {
+#linkedin {
   color: #0a66c2;
 }
-#x:hover {
+#x {
   color: #000000;
 }
-#github:hover {
+#github{
   color: #666768;
 }
-#whatsapp:hover {
+#whatsapp {
   color: #25d366;
 }
-#instagram:hover {
+#instagram {
   color: #e1306c;
 }
 
@@ -417,7 +417,7 @@ footer {
   }
   article{
     line-height: 3rem;
-    min-height: fit-content;
+    max-height: fit-content;
   }
   article,
   .about,
@@ -432,7 +432,3 @@ footer {
     gap: 1rem;
   }
 }
-
-
-
-
