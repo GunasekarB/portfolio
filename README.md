@@ -4,8 +4,7 @@ Welcome to my personal portfolio website! This project showcases my skills, educ
 
 ## 🚀 Live Demo
 
-View the site on [GitHub Pages](https://your-github-username.github.io/your-repo-name/)  
-*(Replace with your actual username and repository name)*
+View the site on [View Portfolio](https://gunasekarb.github.io/portfolio/)  
 
 ## 🖥️ Features
 
