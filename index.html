@@ -183,8 +183,12 @@
     <!-- Footer Page -->
 
     <footer>
-      <p>&copy; 2025 Gunasekar. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Gunasekar. All rights reserved.</p>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     </footer>
   </body>
   <script src="./js/script.js"></script>
 </html>
+
