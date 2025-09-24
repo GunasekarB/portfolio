@@ -416,7 +416,7 @@ footer {
     right: 0;
   }
   article{
-    max-height: fit-content;
+    min-height: fit-content;
   }
   article,
   .about,
@@ -431,5 +431,6 @@ footer {
     gap: 1rem;
   }
 }
+
 
 
