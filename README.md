@@ -59,7 +59,7 @@ js/
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-github-username/your-repo-name.git
+   git clone https://github.com/GunasekarB/portfolio.git
    ```
 2. Open `index.html` in your browser.
 3. To deploy on GitHub Pages:
