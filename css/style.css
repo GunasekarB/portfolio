@@ -43,7 +43,7 @@ header {
 header h1 {
   font-size: 2rem;
   letter-spacing: 2px;
-  color: var(--d-orange);
+  color: #ef6024;
   font-weight: 900;
   transition: all 0.2s;
 }
@@ -530,3 +530,4 @@ footer hr {
     margin: 0%;
   }
 }
+
