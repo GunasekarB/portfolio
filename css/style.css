@@ -43,7 +43,7 @@ header {
 header h1 {
   font-size: 2rem;
   letter-spacing: 2px;
-  color: var(--gray);
+  color: var(--d-orange);
   font-weight: 900;
   transition: all 0.2s;
 }
@@ -183,7 +183,7 @@ article .img {
   transition: all 0.2s linear;
 }
 .buttons button:hover {
-  background: var(--orange);
+  background: var(--dgreen);
   color: #ffffff;
   transform: translatey(-5px);
 }
@@ -233,6 +233,12 @@ article .img {
   background: #f7f8fa;
   border-radius: 8px;
 }
+.education li div{
+  width: 100%;
+  display: flex;
+gap: 1.5rem;
+}
+
 .education h3 {
   font-size: 1.2rem;
   color: var(--dgreen);
@@ -245,7 +251,9 @@ article .img {
   color: var(--orange);
   font-size: 1rem;
 }
-
+.education .edu-bar{
+  color: var(--ddgreen);
+}
 /* Skills Section */
 .skills {
   padding: 2.5rem 1rem;
@@ -308,25 +316,33 @@ article .img {
   margin: 0 auto;
   padding: 0;
 }
+.projects li strong{
+  font-size: 1.1rem;
+}
 .projects li {
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
     rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
   padding: 1rem;
   margin-bottom: 1.5rem;
-  font-size: 1.1rem;
+  font-size: .9rem;
   color: var(--gray);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.7rem;
 }
-.projects li a {
+.projects li div{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+.projects li div a {
   /* margin-left: 1rem; */
   font-size: 0.9rem;
   color: var(--orange);
   font-weight: 600;
 }
-.projects li a:hover {
+.projects li div a:hover {
   text-decoration: underline;
   color: var(--d-orange);
 }
@@ -446,6 +462,9 @@ footer .contact-info {
   justify-content: center;
   align-items: start;
   margin-bottom: 0.5rem;
+}
+footer .contact-info a{
+  color: #fff;
 }
 footer hr {
   margin: 1rem auto;
